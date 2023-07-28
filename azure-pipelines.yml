@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  Azure-Pipeline
+  Hosted Agent
 
 steps:
 - task: Maven@3
