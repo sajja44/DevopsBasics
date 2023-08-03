@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  Hosted Agent
+  vmImage: 'windows-latest'
 
 steps:
 - task: Maven@3
